@@ -1,0 +1,24 @@
+#post-container {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  justify-content: center;
+  grid-template-areas:
+    "post-head"
+    "post-main"
+    "post-foot";
+  row-gap: 15px;
+}
+
+#nav {
+  grid-area: post-head;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 35px;
+  padding-top: 20px;
+}
+
+#nav h2 {
+  margin: 0;
+}

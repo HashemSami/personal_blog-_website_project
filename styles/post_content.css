@@ -1,0 +1,76 @@
+#post-content {
+  grid-area: post-main;
+  display: grid;
+  grid-template-areas:
+    "article"
+    "info";
+  column-gap: 15px;
+  padding: 5px 20px;
+  margin: auto 15px;
+  text-align: left;
+  line-height: 1.2;
+}
+
+#post-content article {
+  grid-area: article;
+  background-color: snow;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#post-content h4 {
+  margin: 0;
+}
+
+#post-content aside {
+  grid-area: info;
+  background-color: rgb(255, 242, 221);
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 0.9em;
+  border: 3px solid slategrey;
+  border-radius: 5px;
+}
+
+.label {
+  background-color: skyblue;
+}
+
+#info {
+  display: flex;
+  flex-direction: row;
+}
+
+#info p {
+  padding-left: 10px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid slategrey;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  #card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 901px) {
+  #post-content {
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "article article info"
+      "article article .";
+    margin: 0px 50px;
+  }
+
+  #nav {
+    padding: 0px 70px;
+    padding-top: 20px;
+  }
+}

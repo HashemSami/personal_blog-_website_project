@@ -1,0 +1,15 @@
+#main-footer {
+  grid-area: foot;
+  height: 50px;
+  background-color: rgb(255, 242, 221);
+  border-top: 3px solid slategrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px 15px;
+}
+
+#main-footer p {
+  margin: 0;
+  font-size: 0.7em;
+}

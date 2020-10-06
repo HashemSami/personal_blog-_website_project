@@ -1,0 +1,10 @@
+#post-footer {
+  grid-area: post-foot;
+  height: 50px;
+  background-color: rgb(255, 242, 221);
+  border-top: 3px solid slategrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px 15px;
+}
