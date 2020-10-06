@@ -3,7 +3,7 @@
   display: grid;
   grid-auto-rows: minmax(100px, auto);
   row-gap: 15px;
-  margin: 15px 50px;
+  margin: 15px 15px;
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
@@ -16,5 +16,6 @@
   #card-container {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
+    margin: 15px 70px;
   }
 }

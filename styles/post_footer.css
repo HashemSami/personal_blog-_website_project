@@ -8,3 +8,8 @@
   justify-content: space-evenly;
   padding: 5px 15px;
 }
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+}

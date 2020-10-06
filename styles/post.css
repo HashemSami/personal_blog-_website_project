@@ -19,6 +19,7 @@
   padding-top: 20px;
 }
 
-#nav h2 {
+#nav .nav-title {
   margin: 0;
+  /* font-weight: bold; */
 }

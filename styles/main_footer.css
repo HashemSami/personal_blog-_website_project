@@ -9,7 +9,7 @@
   padding: 5px 15px;
 }
 
-#main-footer p {
+#main-footer .footer-content {
   margin: 0;
   font-size: 0.7em;
 }

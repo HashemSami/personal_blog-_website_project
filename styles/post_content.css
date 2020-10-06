@@ -11,18 +11,42 @@
   line-height: 1.2;
 }
 
-#post-content article {
+#post-content #post-article {
   grid-area: article;
   background-color: snow;
   border-radius: 5px;
   padding: 15px;
 }
 
-#post-content h4 {
+#post-content #post-article figure {
   margin: 0;
 }
 
-#post-content aside {
+#post-content #post-article .post-image {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.caption {
+  font-size: 0.7em;
+}
+
+#post-content .sub-title {
+  margin: 0;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+#quote-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#post-content #user-info-card {
   grid-area: info;
   background-color: rgb(255, 242, 221);
   padding: 15px;
@@ -52,12 +76,6 @@
   height: 50px;
   border-radius: 50%;
   border: 1px solid slategrey;
-}
-
-@media (min-width: 600px) and (max-width: 900px) {
-  #card-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (min-width: 901px) {

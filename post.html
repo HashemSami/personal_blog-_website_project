@@ -9,16 +9,22 @@
   <body>
     <div id="post-container">
       <div id="nav">
-        <h2>Post title</h2>
+        <h2 class="nav-title">Post title</h2>
         <a href="index.html">Home</a>
       </div>
       <div id="post-content">
-        <article>
+        <article id="post-article">
+          <figure>
+            <img src="images/post_background.jpg" class="post-image" alt="post image" />
+            <figcaption class="caption">Test figcaption</figcaption>
+          </figure>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <h4>Sub-title</h4>
+          <h4 class="sub-title"><span class="italic-text">Sub-title</span></h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p id="quote-title">Here is a quote example:</p>
+          <blockquote cite="https://en.wikipedia.org/wiki/Aerospike_engine">The aerospike engine is a type of rocket engine that maintains its aerodynamic efficiency across a wide range of altitudes.[1] It belongs to the class of altitude compensating nozzle engines. A vehicle with an aerospike engine uses 25–30% less[definition needed] fuel at low altitudes,[2] where most missions have the greatest need for thrust.</blockquote>
         </article>
-        <aside>
+        <aside id="user-info-card">
           <div id="post-creation">Created on: <em>10/5/2020</em></div>
           <p class="label">By:</p>
           <div id="info">
@@ -32,9 +38,9 @@
         </aside>
       </div>
       <footer id="post-footer">
-        <img src="images/facebook.svg" width="30px" width="30px" alt="facebook icon" />
-        <img src="images/twitter.svg" width="30px" width="30px" alt="twitter icon" />
-        <img src="images/youtube.svg" width="30px" width="30px" alt="youtube icon" />
+        <img class="footer-icon" src="images/facebook.svg" alt="facebook icon" />
+        <img class="footer-icon" src="images/twitter.svg" alt="twitter icon" />
+        <img class="footer-icon" src="images/youtube.svg" alt="youtube icon" />
       </footer>
     </div>
   </body>

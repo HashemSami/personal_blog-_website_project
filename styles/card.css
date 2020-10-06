@@ -15,16 +15,17 @@
   box-shadow: 10px 10px 5px grey;
 }
 
-.card h3 {
+.card .card-title {
   margin: 0;
   font-size: 1.7em;
 }
 
-.card img {
+.card .card-image {
   border: 1px solid slategrey;
+  width: 100%;
 }
 
-.card p {
+.card .card-paragraph {
   border-left: 1px solid slategrey;
   padding: 5px;
 }
