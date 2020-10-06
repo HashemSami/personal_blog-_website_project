@@ -6,4 +6,4 @@ This project required to utilize HTML and CSS skills to build out a personal blo
 
 ### Getting Started:
 
-Simply clone this repo and run `index.html` on your browser.
+Simply clone this repo and run `index.html` file on your browser.
